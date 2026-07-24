@@ -239,7 +239,7 @@
             <g clip-path="url(#reveal-clip)">
                 <!-- Greeting -->
                 <text x="0" y="30" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold">
-                    Hi 👋 I'm Shlok Noval
+                    Hi 👋 I'm Sujoy Kr. Das
                 </text>
                 
                 <!-- Animated Typing Text -->
@@ -247,15 +247,15 @@
                     <g clip-path="url(#typing-clip)">
                         <text x="0" y="0" fill="url(#accent-gradient)" font-family="monospace" font-size="24" font-weight="bold">
                             <animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0;0.3;0.3;0.633;0.633;1" dur="15s" repeatCount="indefinite" />
-                            &gt; 6x Hackathon Winner
+                            &gt; 2x Hackathon Winner
                         </text>
                         <text x="0" y="0" fill="url(#accent-gradient)" font-family="monospace" font-size="24" font-weight="bold" opacity="0">
                             <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3;0.3;0.633;0.633;1" dur="15s" repeatCount="indefinite" />
-                            &gt; Building Scalable AIML Projects
+                            &gt; IoT and Embedded Developer
                         </text>
                         <text x="0" y="0" fill="url(#accent-gradient)" font-family="monospace" font-size="24" font-weight="bold" opacity="0">
                             <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.633;0.633;1" dur="15s" repeatCount="indefinite" />
-                            &gt; Full stack and AIML freelance developer
+                            &gt; Full stack, AIML and PCB Designer 
                         </text>
                     </g>
                     <!-- Blinking Cursor -->
@@ -267,10 +267,9 @@
 
                 <!-- Personal Info -->
                 <g transform="translate(0, 140)" font-family="monospace" font-size="16" fill="#475569">
-                    <text x="0" y="0" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze" /><tspan fill="#06B6D4">const</tspan> location = <tspan fill="#0F172A">"Chh. Sambhajinagar (M.H.), India"</tspan>;</text>
+                    <text x="0" y="0" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze" /><tspan fill="#06B6D4">const</tspan> location = <tspan fill="#0F172A">"Guwahati, Assam, India"</tspan>;</text>
                     <text x="0" y="28" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.2s" fill="freeze" /><tspan fill="#06B6D4">const</tspan> education = <tspan fill="#0F172A">"Computer Science"</tspan>;</text>
-                    <text x="0" y="56" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze" /><tspan fill="#06B6D4">const</tspan> focus = <tspan fill="#0F172A">"Building Scalable &amp; Production-level Apps"</tspan>;</text>
-                    <text x="0" y="84" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.6s" fill="freeze" /><tspan fill="#06B6D4">const</tspan> email = <tspan fill="#0F172A">"shloktechnical@gmail.com"</tspan>;</text>
+                    <text x="0" y="84" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.6s" fill="freeze" /><tspan fill="#06B6D4">const</tspan> email = <tspan fill="#0F172A">"sujoykrdas011@gmail.com"</tspan>;</text>
                 </g>
 
                 <!-- Skills Section -->
@@ -308,7 +307,7 @@
                             <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.4000000000000004s" fill="freeze" />
                             <animateTransform attributeName="transform" type="translate" values="165,10; 165,0" dur="0.5s" begin="2.4000000000000004s" fill="freeze" />
                             <rect width="93" height="32" rx="16" fill="rgba(15,23,42,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
-                            <text x="46.5" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Next.js</text>
+                            <text x="46.5" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">FUSION 360</text>
                             
                             <rect width="93" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
                                 <animate attributeName="opacity" values="0; 0.2; 0" dur="6.9926128194853305s" begin="2.4000000000000004s" repeatCount="indefinite" />
@@ -319,7 +318,7 @@
                             <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5000000000000004s" fill="freeze" />
                             <animateTransform attributeName="transform" type="translate" values="270,10; 270,0" dur="0.5s" begin="2.5000000000000004s" fill="freeze" />
                             <rect width="93" height="32" rx="16" fill="rgba(15,23,42,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
-                            <text x="46.5" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Flutter</text>
+                            <text x="46.5" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Node.js</text>
                             
                             <rect width="93" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
                                 <animate attributeName="opacity" values="0; 0.2; 0" dur="5.528578881029393s" begin="2.5000000000000004s" repeatCount="indefinite" />
@@ -330,7 +329,7 @@
                             <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.6000000000000005s" fill="freeze" />
                             <animateTransform attributeName="transform" type="translate" values="375,10; 375,0" dur="0.5s" begin="2.6000000000000005s" fill="freeze" />
                             <rect width="93" height="32" rx="16" fill="rgba(15,23,42,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
-                            <text x="46.5" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Node.js</text>
+                            <text x="46.5" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Express.js</text>
                             
                             <rect width="93" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
                                 <animate attributeName="opacity" values="0; 0.2; 0" dur="4.272728236521382s" begin="2.6000000000000005s" repeatCount="indefinite" />
@@ -352,7 +351,7 @@
                             <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.8000000000000007s" fill="freeze" />
                             <animateTransform attributeName="transform" type="translate" values="105,55; 105,45" dur="0.5s" begin="2.8000000000000007s" fill="freeze" />
                             <rect width="102" height="32" rx="16" fill="rgba(15,23,42,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
-                            <text x="51.0" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Firebase</text>
+                            <text x="51.0" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Supabase</text>
                             
                             <rect width="102" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
                                 <animate attributeName="opacity" values="0; 0.2; 0" dur="4.328947391051978s" begin="2.8000000000000007s" repeatCount="indefinite" />
@@ -363,7 +362,7 @@
                             <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.900000000000001s" fill="freeze" />
                             <animateTransform attributeName="transform" type="translate" values="219,55; 219,45" dur="0.5s" begin="2.900000000000001s" fill="freeze" />
                             <rect width="57" height="32" rx="16" fill="rgba(15,23,42,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
-                            <text x="28.5" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">GCP</text>
+                            <text x="28.5" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Godot</text>
                             
                             <rect width="57" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
                                 <animate attributeName="opacity" values="0; 0.2; 0" dur="5.88233812510927s" begin="2.900000000000001s" repeatCount="indefinite" />
@@ -374,7 +373,7 @@
                             <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.000000000000001s" fill="freeze" />
                             <animateTransform attributeName="transform" type="translate" values="288,55; 288,45" dur="0.5s" begin="3.000000000000001s" fill="freeze" />
                             <rect width="84" height="32" rx="16" fill="rgba(15,23,42,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
-                            <text x="42.0" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">MATLAB</text>
+                            <text x="42.0" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">ESP32</text>
                             
                             <rect width="84" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
                                 <animate attributeName="opacity" values="0; 0.2; 0" dur="6.376238093088892s" begin="3.000000000000001s" repeatCount="indefinite" />
@@ -389,17 +388,6 @@
                             
                             <rect width="84" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
                                 <animate attributeName="opacity" values="0; 0.2; 0" dur="5.266479900399052s" begin="3.100000000000001s" repeatCount="indefinite" />
-                            </rect>
-                        </g>
-
-                        <g transform="translate(480, 45)" opacity="0">
-                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.200000000000001s" fill="freeze" />
-                            <animateTransform attributeName="transform" type="translate" values="480,55; 480,45" dur="0.5s" begin="3.200000000000001s" fill="freeze" />
-                            <rect width="66" height="32" rx="16" fill="rgba(15,23,42,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
-                            <text x="33.0" y="21" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Dart</text>
-                            
-                            <rect width="66" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
-                                <animate attributeName="opacity" values="0; 0.2; 0" dur="4.190583118455871s" begin="3.200000000000001s" repeatCount="indefinite" />
                             </rect>
                         </g>
 
