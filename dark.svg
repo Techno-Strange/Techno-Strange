@@ -1,0 +1,413 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610">
+    <defs>
+        <!-- Gradients -->
+        <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#7C3AED">
+                <animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="8s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="50%" stop-color="#22D3EE">
+                <animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="8s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" stop-color="#10B981">
+                <animate attributeName="stop-color" values="#10B981;#7C3AED;#22D3EE;#10B981" dur="8s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+
+        <linearGradient id="ascii-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#22D3EE">
+                <animate attributeName="stop-color" values="#22D3EE;#7C3AED;#22D3EE" dur="5s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" stop-color="#7C3AED">
+                <animate attributeName="stop-color" values="#7C3AED;#22D3EE;#7C3AED" dur="5s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+
+        <!-- Filters -->
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <filter id="soft-glow">
+            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <filter id="blur-bg">
+            <feGaussianBlur stdDeviation="30"/>
+        </filter>
+        
+        <!-- Noise filter removed for GitHub compatibility -->
+        
+        <!-- Clip Paths -->
+        <clipPath id="typing-clip">
+            <rect x="0" y="-30" width="0" height="60">
+                <animate attributeName="width" values="0;278;278;0;0;451;451;0;0;566;566;0;0" keyTimes="0;0.05;0.25;0.3;0.333;0.383;0.583;0.633;0.666;0.716;0.916;0.966;1" dur="15s" repeatCount="indefinite" />
+            </rect>
+        </clipPath>
+
+        <clipPath id="reveal-clip">
+            <rect x="0" y="0" width="0" height="1000">
+                <animate attributeName="width" values="0;1000" dur="2s" fill="freeze" begin="0.5s"/>
+            </rect>
+        </clipPath>
+
+    </defs>
+
+    <!-- Background -->
+    <rect width="1180" height="610" fill="#030712" rx="24"/>
+    
+    <!-- Floating radial gradients -->
+    <circle cx="200" cy="150" r="200" fill="rgba(34, 211, 238, 0.15)" filter="url(#blur-bg)">
+        <animateMotion path="M 0,0 a 80,80 0 1,0 160,0 a 80,80 0 1,0 -160,0" dur="15s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="900" cy="450" r="250" fill="rgba(124, 58, 237, 0.15)" filter="url(#blur-bg)">
+        <animateMotion path="M 0,0 a -90,90 0 1,0 180,0 a -90,90 0 1,0 -180,0" dur="20s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="600" cy="100" r="220" fill="rgba(16, 185, 129, 0.15)" filter="url(#blur-bg)">
+        <animateMotion path="M 0,0 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0" dur="18s" repeatCount="indefinite" />
+    </circle>
+
+
+    <!-- Particles -->
+    <circle cx="278" cy="62" r="2.1123257496397496" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="5.224459269017381s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="62;22;62" dur="7.836688903526072s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="335" cy="427" r="1.1537427642572613" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="7.703338723338379s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="427;387;427" dur="11.555008085007568s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="228" cy="352" r="1.6328827295279056" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="4.148986097190352s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="352;312;352" dur="6.223479145785527s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="497" cy="169" r="1.7580329321550436" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="4.132679848419318s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="169;129;169" dur="6.1990197726289775s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="457" cy="416" r="1.974826656669285" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="6.724707403016083s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="416;376;416" dur="10.087061104524125s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="501" cy="279" r="1.883898525813863" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="8.047152283389133s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="279;239;279" dur="12.0707284250837s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="63" cy="438" r="2.208728877749212" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="7.490696974941134s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="438;398;438" dur="11.2360454624117s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="746" cy="192" r="1.2332192497176724" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="8.786065361033906s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="192;152;192" dur="13.179098041550859s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="739" cy="102" r="1.139118765070222" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="4.48358188416732s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="102;62;102" dur="6.72537282625098s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="754" cy="359" r="1.3967813008330197" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="4.217252214615486s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="359;319;359" dur="6.325878321923229s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="990" cy="324" r="1.187239244279814" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="8.6114768601408s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="324;284;324" dur="12.9172152902112s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="211" cy="332" r="1.4397674221106393" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="7.143198997472217s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="332;292;332" dur="10.714798496208324s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="790" cy="345" r="1.2884328853849898" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="4.347775744118705s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="345;305;345" dur="6.521663616178057s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="516" cy="445" r="1.4340819454031608" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="4.3989598846181375s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="445;405;445" dur="6.598439826927207s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="526" cy="493" r="1.1515021441145936" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="5.38986801555046s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="493;453;493" dur="8.08480202332569s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="797" cy="133" r="1.555271450675324" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="5.047535153857439s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="133;93;133" dur="7.571302730786158s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="596" cy="409" r="2.404981881568741" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="7.240176926232968s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="409;369;409" dur="10.86026538934945s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="400" cy="323" r="2.0936901969255235" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="4.817012468809642s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="323;283;323" dur="7.225518703214463s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="827" cy="188" r="2.4842850259548928" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="7.199998799270464s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="188;148;188" dur="10.799998198905696s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="499" cy="400" r="1.4864241016229829" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="7.841567887961861s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="400;360;400" dur="11.76235183194279s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="164" cy="167" r="2.2327038910102126" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="8.025229003856072s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="167;127;167" dur="12.037843505784108s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="871" cy="187" r="1.099282907817321" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="8.565680620927726s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="187;147;187" dur="12.848520931391588s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="694" cy="158" r="1.9831579979423202" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="5.978159505303321s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="158;118;158" dur="8.967239257954981s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="989" cy="123" r="1.3973202497470787" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="5.233137538469917s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="123;83;123" dur="7.849706307704875s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="588" cy="432" r="1.8768789853353107" fill="#F8FAFC" opacity="0">
+        <animate attributeName="opacity" values="0;0.6;0" dur="8.489114418012385s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="432;392;432" dur="12.733671627018577s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Left Side: ASCII Portrait -->
+    <g transform="translate(40, 30)">
+        <!-- Glass Panel -->
+        <rect width="420" height="550" fill="#0F172A" rx="16" fill-opacity="0.7" stroke="rgba(255,255,255,0.08)" stroke-width="1.5">
+            <animate attributeName="stroke" values="rgba(255,255,255,0.08);rgba(34, 211, 238, 0.15);rgba(255,255,255,0.08)" dur="4s" repeatCount="indefinite" />
+        </rect>
+        
+        <!-- Border Shimmer -->
+        <rect width="420" height="550" fill="none" rx="16" stroke="url(#accent-gradient)" stroke-width="2" opacity="0" stroke-dasharray="20 400" stroke-dashoffset="0">
+            <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite" />
+            <animate attributeName="stroke-dashoffset" values="0;-420" dur="6s" repeatCount="indefinite" />
+        </rect>
+
+        <!-- Inner content floating -->
+        <g>
+            <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="6s" repeatCount="indefinite" />
+            
+            <text font-family="monospace" font-size="16" font-weight="bold" fill="url(#ascii-gradient)" filter="url(#glow)" x="210" y="100" text-anchor="middle" clip-path="url(#reveal-clip)">
+                <tspan x="210" y="120" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.0s" fill="freeze" />&#160;&#160;&#160;&#160;&#160;&#160;.::::::::...&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+                <tspan x="210" y="140" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.1s" fill="freeze" />&#160;&#160;&#160;&#160;.::::::::::::::::.&#160;&#160;&#160;&#160;</tspan>
+                <tspan x="210" y="160" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.2s" fill="freeze" />&#160;&#160;.::::::::::::::::::::.&#160;&#160;</tspan>
+                <tspan x="210" y="180" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.30000000000000004s" fill="freeze" />&#160;.::::::::::::::::::::::.&#160;</tspan>
+                <tspan x="210" y="200" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.4s" fill="freeze" />&#160;::::::::::::::::::::::::&#160;</tspan>
+                <tspan x="210" y="220" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.5s" fill="freeze" />&#160;::::::::::::::::::::::::&#160;</tspan>
+                <tspan x="210" y="240" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.6000000000000001s" fill="freeze" />&#160;::::::::::::::::::::::::&#160;</tspan>
+                <tspan x="210" y="260" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.7000000000000001s" fill="freeze" />&#160;`::::::::::::::::::::::'&#160;</tspan>
+                <tspan x="210" y="280" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.8s" fill="freeze" />&#160;&#160;`::::::::::::::::::::'&#160;&#160;</tspan>
+                <tspan x="210" y="300" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.9s" fill="freeze" />&#160;&#160;&#160;&#160;`::::::::::::::::'&#160;&#160;&#160;&#160;</tspan>
+                <tspan x="210" y="320" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.0s" fill="freeze" />&#160;&#160;&#160;&#160;&#160;&#160;`'::::::::::'`&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+                <tspan x="210" y="340" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.1s" fill="freeze" />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;......&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+                <tspan x="210" y="360" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.2000000000000002s" fill="freeze" />&#160;&#160;&#160;&#160;&#160;&#160;.::::::::::::.&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+                <tspan x="210" y="380" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.3s" fill="freeze" />&#160;&#160;&#160;&#160;.::::::::::::::::.&#160;&#160;&#160;&#160;</tspan>
+                <tspan x="210" y="400" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.4000000000000001s" fill="freeze" />&#160;&#160;.::::::::::::::::::::.&#160;&#160;</tspan>
+            </text>
+            
+            <!-- Moving scanline -->
+            <rect x="20" y="10" width="380" height="3" fill="url(#ascii-gradient)" opacity="0" filter="url(#glow)">
+                <animate attributeName="opacity" values="0;0.5;0" dur="8s" repeatCount="indefinite" />
+                <animate attributeName="y" values="10;540;10" dur="8s" repeatCount="indefinite" />
+            </rect>
+            
+        </g>
+    </g>
+
+    <!-- Right Side: Terminal Window -->
+    <g transform="translate(490, 30)">
+        <!-- Glass Panel -->
+        <rect width="650" height="550" fill="#0F172A" rx="16" fill-opacity="0.7" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+        
+        <!-- Terminal Header -->
+        <rect width="650" height="40" fill="rgba(255,255,255,0.08)" rx="16" />
+        <rect width="650" height="20" y="20" fill="rgba(255,255,255,0.08)" />
+        <circle cx="30" cy="20" r="6" fill="#EF4444" />
+        <circle cx="50" cy="20" r="6" fill="#F59E0B" />
+        <circle cx="70" cy="20" r="6" fill="#10B981" />
+        <text x="325" y="25" fill="#94A3B8" font-family="monospace" font-size="12" text-anchor="middle">~ / developer / profile</text>
+
+        <!-- Content -->
+        <g transform="translate(40, 80)">
+            <g clip-path="url(#reveal-clip)">
+                <!-- Greeting -->
+                <text x="0" y="30" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold">
+                    Hi 👋 I'm Shlok Noval
+                </text>
+                
+                <!-- Animated Typing Text -->
+                <g transform="translate(0, 75)">
+                    <g clip-path="url(#typing-clip)">
+                        <text x="0" y="0" fill="url(#accent-gradient)" font-family="monospace" font-size="24" font-weight="bold">
+                            <animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0;0.3;0.3;0.633;0.633;1" dur="15s" repeatCount="indefinite" />
+                            &gt; 6x Hackathon Winner
+                        </text>
+                        <text x="0" y="0" fill="url(#accent-gradient)" font-family="monospace" font-size="24" font-weight="bold" opacity="0">
+                            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3;0.3;0.633;0.633;1" dur="15s" repeatCount="indefinite" />
+                            &gt; Building Scalable AIML Projects
+                        </text>
+                        <text x="0" y="0" fill="url(#accent-gradient)" font-family="monospace" font-size="24" font-weight="bold" opacity="0">
+                            <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.633;0.633;1" dur="15s" repeatCount="indefinite" />
+                            &gt; Full stack and AIML freelance developer
+                        </text>
+                    </g>
+                    <!-- Blinking Cursor -->
+                    <rect x="0" y="-22" width="12" height="26" fill="url(#accent-gradient)">
+                        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+                        <animate attributeName="x" values="24;302;302;24;24;475;475;24;24;590;590;24;24" keyTimes="0;0.05;0.25;0.3;0.333;0.383;0.583;0.633;0.666;0.716;0.916;0.966;1" dur="15s" repeatCount="indefinite" />
+                    </rect>
+                </g>
+
+                <!-- Personal Info -->
+                <g transform="translate(0, 140)" font-family="monospace" font-size="16" fill="#94A3B8">
+                    <text x="0" y="0" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze" /><tspan fill="#22D3EE">const</tspan> location = <tspan fill="#F8FAFC">"Chh. Sambhajinagar (M.H.), India"</tspan>;</text>
+                    <text x="0" y="28" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.2s" fill="freeze" /><tspan fill="#22D3EE">const</tspan> education = <tspan fill="#F8FAFC">"Computer Science"</tspan>;</text>
+                    <text x="0" y="56" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze" /><tspan fill="#22D3EE">const</tspan> focus = <tspan fill="#F8FAFC">"Building Scalable &amp; Production-level Apps"</tspan>;</text>
+                    <text x="0" y="84" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.6s" fill="freeze" /><tspan fill="#22D3EE">const</tspan> email = <tspan fill="#F8FAFC">"shloktechnical@gmail.com"</tspan>;</text>
+                </g>
+
+                <!-- Skills Section -->
+                <g transform="translate(0, 270)">
+                    <text x="0" y="0" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze" />
+                        Skills
+                    </text>
+                    
+                    <g transform="translate(0, 20)">
+
+                        <g transform="translate(0, 0)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.2s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="0,10; 0,0" dur="0.5s" begin="2.2s" fill="freeze" />
+                            <rect width="84" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="42.0" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Python</text>
+                            
+                            <rect width="84" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="5.198201515421192s" begin="2.2s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <g transform="translate(96, 0)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.3000000000000003s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="96,10; 96,0" dur="0.5s" begin="2.3000000000000003s" fill="freeze" />
+                            <rect width="57" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="28.5" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">C++</text>
+                            
+                            <rect width="57" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="4.65796227747185s" begin="2.3000000000000003s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <g transform="translate(165, 0)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.4000000000000004s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="165,10; 165,0" dur="0.5s" begin="2.4000000000000004s" fill="freeze" />
+                            <rect width="93" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="46.5" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Next.js</text>
+                            
+                            <rect width="93" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="6.9926128194853305s" begin="2.4000000000000004s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <g transform="translate(270, 0)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5000000000000004s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="270,10; 270,0" dur="0.5s" begin="2.5000000000000004s" fill="freeze" />
+                            <rect width="93" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="46.5" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Flutter</text>
+                            
+                            <rect width="93" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="5.528578881029393s" begin="2.5000000000000004s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <g transform="translate(375, 0)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.6000000000000005s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="375,10; 375,0" dur="0.5s" begin="2.6000000000000005s" fill="freeze" />
+                            <rect width="93" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="46.5" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Node.js</text>
+                            
+                            <rect width="93" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="4.272728236521382s" begin="2.6000000000000005s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <g transform="translate(0, 45)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.7000000000000006s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="0,55; 0,45" dur="0.5s" begin="2.7000000000000006s" fill="freeze" />
+                            <rect width="93" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="46.5" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">LLaMA 3</text>
+                            
+                            <rect width="93" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="4.1413491262742035s" begin="2.7000000000000006s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <g transform="translate(105, 45)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.8000000000000007s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="105,55; 105,45" dur="0.5s" begin="2.8000000000000007s" fill="freeze" />
+                            <rect width="102" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="51.0" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Firebase</text>
+                            
+                            <rect width="102" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="4.328947391051978s" begin="2.8000000000000007s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <g transform="translate(219, 45)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.900000000000001s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="219,55; 219,45" dur="0.5s" begin="2.900000000000001s" fill="freeze" />
+                            <rect width="57" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="28.5" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">GCP</text>
+                            
+                            <rect width="57" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="5.88233812510927s" begin="2.900000000000001s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <g transform="translate(288, 45)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.000000000000001s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="288,55; 288,45" dur="0.5s" begin="3.000000000000001s" fill="freeze" />
+                            <rect width="84" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="42.0" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">MATLAB</text>
+                            
+                            <rect width="84" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="6.376238093088892s" begin="3.000000000000001s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <g transform="translate(384, 45)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.100000000000001s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="384,55; 384,45" dur="0.5s" begin="3.100000000000001s" fill="freeze" />
+                            <rect width="84" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="42.0" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Docker</text>
+                            
+                            <rect width="84" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="5.266479900399052s" begin="3.100000000000001s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <g transform="translate(480, 45)" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.200000000000001s" fill="freeze" />
+                            <animateTransform attributeName="transform" type="translate" values="480,55; 480,45" dur="0.5s" begin="3.200000000000001s" fill="freeze" />
+                            <rect width="66" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="url(#accent-gradient)" stroke-width="1" />
+                            <text x="33.0" y="21" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" text-anchor="middle">Dart</text>
+                            
+                            <rect width="66" height="32" rx="16" fill="url(#accent-gradient)" opacity="0" filter="url(#glow)">
+                                <animate attributeName="opacity" values="0; 0.2; 0" dur="4.190583118455871s" begin="3.200000000000001s" repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                    </g>
+                </g>
+
+            </g>
+        </g>
+    </g>
+
+    </svg>
